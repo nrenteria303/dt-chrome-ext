@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "permissions": ["activeTab"],
 
-    "description": "This extension replaces the name \"Donald Trump\" with the more appropriate name, \"Tiny Dinky Daffy\"",
+    "description": "This extension replaces 45's name with the more appropriate name, \"Tiny Dinky Daffy\"",
     "icons": {  "16": "TDD16.png",
                 "48": "TDD48.png",
                 "128": "TDD128.png" },
