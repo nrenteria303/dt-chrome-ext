@@ -43,7 +43,7 @@ function replaceDT(arr) {
                 replaceLoop(nodeList, i, text, text.match(regex).length, regex);
             } else if (text.includes("DONALD TRUMP")) {
                 let regex = /DONALD TRUMP/g;
-                replaceLoop(nodeList, i, text, text.match(regex).length);
+                replaceLoop(nodeList, i, text, text.match(regex).length, regex);
             } else if (text.includes("Donald Trump")) {
                 let regex = /Donald Trump/g;
                 replaceLoop(nodeList, i, text, text.match(regex).length, regex);
