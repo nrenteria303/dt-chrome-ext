@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Tiny Dinky Daffinator",
+    "short_name": "DT to TDD",
+    "version": "1.0.0",
+    "permissions": ["activeTab"],
+
+    "description": "This extension replaces the name \"Donald Trump\" with the more appropriate name, \"Tiny Dinky Daffy\"",
+    "icons": {  "16": "TDD16.png",
+                "48": "TDD48.png",
+                "128": "TDD128.png" },
+    "content_scripts": [
+                        {
+                        "matches": ["<all_urls>"],
+                        "js": ["app.js"]
+                        }
+                    ],
+
+    "browser_action": {
+        "default_icon": {
+            "16": "./TDD16.png",
+            "48": "./TDD48.png",
+            "128": "./TDD128.png"
+        },
+        "default_title": "Tiny Dinky Daffinator"
+    }
+}
